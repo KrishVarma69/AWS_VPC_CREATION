@@ -1,5 +1,7 @@
-- hosts: monitoring
-  roles:
+- name: vpc creation
+  hosts: monitoring
+  become: yes
+#   roles:
 #     - role: "aws_vpc_create"
       vars:
         aws_vpc_create:
