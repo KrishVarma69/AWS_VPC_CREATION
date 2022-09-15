@@ -1,6 +1,6 @@
 - hosts: monitoring
   roles:
-    - role: "/home/ubuntu/.ansible/roles/aws_vpc_create"
+    - role: "/home/ubuntu/.ansible/roles/"
       vars:
         aws_vpc_create:
           profile: "default"            # The aws credentials file profile name.
