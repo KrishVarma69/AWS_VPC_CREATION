@@ -69,7 +69,7 @@ Add the following to a file like `playbook.yaml`:
 ```yaml
 - hosts: monitoring
   roles:
-    - role: "mateothegreat.aws_vpc_create"
+    - role: "aws_vpc_create"
       vars:
         aws_vpc_create:
           profile: "default"            # The aws credentials file profile name.
