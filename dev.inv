@@ -1,0 +1,2 @@
+[monitoring]
+54.165.180.1 ansible_user=ubuntu
