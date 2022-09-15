@@ -1,5 +1,5 @@
 galaxy_info:
-  author: "Matthew Davis (https://matthewdavis.io)"
+  author: "Vaikunta Varma"
   description: "Provision a complete AWS VPC."
   license: "MIT"
   min_ansible_version: "2.4"
