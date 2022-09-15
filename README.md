@@ -112,7 +112,3 @@ Add the following to a file like `playbook.yaml`:
 ```
 
 Run with `ansible-playbook -i <your inventory file> playbook.yaml`.
-
-# Contact
-
-You can reach out to me at https://matthewdavis.io.
