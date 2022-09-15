@@ -1,6 +1,6 @@
 - hosts: monitoring
   roles:
-    - role: "AWS_VPC_CREATION"
+    - role: "Vpc_Creation"
       vars:
         aws_vpc_create:
           profile: "default"            # The aws credentials file profile name.
