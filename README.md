@@ -59,7 +59,7 @@ aws_vpc_create:
       cidr: "201.0.4.0/24"
       az: "eu-central-1b"
   tags:
-    created_by: "Matthew Davis"
+    created_by: "Vaikunta Varma"
 ```
 
 ## Example Usage
@@ -108,7 +108,7 @@ Add the following to a file like `playbook.yaml`:
               cidr: "201.0.4.0/24"
               az: "eu-central-1b"
           tags:
-            created_by: "Matthew Davis"
+            created_by: "Vaikunta Varma"
 ```
 
 Run with `ansible-playbook -i <your inventory file> playbook.yaml`.
