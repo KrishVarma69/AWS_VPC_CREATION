@@ -1,10 +1,8 @@
-- name: vpc creation
-  hosts: monitoring
-  become: yes
-#   roles:
-#     - role: "aws_vpc_create"
-      tasks:
-      - name: aws_vpc_create:
+- hosts: monitoring
+  roles:
+    - role: "aws_vpc_create"
+      vars:
+        aws_vpc_create:
           profile: "default"            # The aws credentials file profile name.
           name: "test-1"                # Name of the vpc you want to create.
           region: "eu-central-1"        # AWS region.
