@@ -1,4 +1,4 @@
-- name: "AWS VPC create ({{ aws_vpc_create.name }}) // Check for existing"
+- name: "AWS VPC create ({{ aws_vpc_create.name }})"
   ec2_vpc_net_info:
     profile: "{{ aws_vpc_create.profile }}"
     region: "{{ aws_vpc_create.region }}"
